@@ -15,7 +15,7 @@ class LogAnalyzer: # creating class
             return file.readlines() # file operation
         
     def write_json(self,counts):
-        with open(self.output_file,"w+") as json_file:
+        with open(self.output1_file,"w+") as json_file:
             json.dump(counts,json_file)
 
     def analyze(self):
